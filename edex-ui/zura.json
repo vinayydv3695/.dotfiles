@@ -14,26 +14,26 @@
     "terminal": {
         "fontFamily": "Fira Mono",
         "cursorStyle": "underline",
-        "foreground": "#00CCFF",  // Lighter blue for better readability
-        "background": "#090B0A",
+        "foreground": "#00CCFF",  
+	"background": "#090B0A",
         "cursor": "#00CCFF",
         "cursorAccent": "#00CCFF",
-        "selection": "rgba(0,204,255,0.3)"  // Adjusted for a lighter blue selection
+        "selection": "rgb(0,204,255,0.3)"  
     },
     "globe": {
-        "base": "#FF3333",  // Bright red for strong contrast
+        "base": "#FF3333",  
         "marker": "#FF3333",
         "pin": "#FF3333",
         "satellite": "#FF3333"
     },
     "panel": {
-        "background": "#0f2e3d",  // Using grey color for panel backgrounds
-        "foreground": "#00CCFF"   // Light blue for text and icons
+        "background": "#0f2e3d",  
+        "foreground": "#00CCFF"   
     },
     "widgets": {
-        "background": "#090B0A",  // Consistent background with the terminal
-        "border": "#00CCFF",      // Light blue border for widgets
-        "foreground": "#00CCFF"   // Light blue text for widgets
+        "background": "#090B0A",  
+        "border": "#00CCFF",      
+        "foreground": "#00CCFF"   
     }
 }
 

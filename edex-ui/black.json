@@ -15,7 +15,7 @@
         "fontFamily": "Fira Mono",
         "cursorStyle": "block",
         "foreground": "#aacfd1",
-        "background": "#000000",  // Changed background color to dark black (#000000)
+        "background": "#000000", 
         "cursor": "#aacfd1",
         "cursorAccent": "#aacfd1",
         "selection": "rgba(170,207,209,0.3)"
