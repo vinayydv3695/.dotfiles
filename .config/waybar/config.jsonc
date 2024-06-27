@@ -79,7 +79,7 @@
 	"wlr/taskbar": {
 		"format": "{icon}",
 		"rotate": 0,
-		"icon-size": 18,
+		"icon-size": 19,
 		"icon-theme": "Tela-circle-dracula",
         "spacing": 0,
 		"tooltip-format": "{title}",
