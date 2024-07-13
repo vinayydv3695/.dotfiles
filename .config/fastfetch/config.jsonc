@@ -10,7 +10,7 @@
     "modules": [
         {
             "type": "custom",
-            "format": "\u001b[36    Loli over Mommy "
+            "format": "\u001b[36m    Loli over Mommy "
         },
         {
             "type": "custom",
@@ -28,8 +28,8 @@
         },
         {
             "type": "packages",
-            "key": "   Packages",
-            "keyColor": "blue"
+            "key": "   Packages",
+            "keyColor": "green"
         },
         {
             "type": "display",
@@ -38,7 +38,7 @@
         },
         {
             "type": "wm",
-            "key": "   WM",
+            "key": "   WM",
             "keyColor": "yellow"
         },
         {
@@ -53,7 +53,7 @@
         "break",
         {
             "type": "title",
-            "key": "  "
+            "key": "   User"
         },
         {
             "type": "custom",
@@ -62,24 +62,24 @@
         {
             "type": "cpu",
             "format": "{1}",
-            "key": "   CPU",
+            "key": "   CPU",
             "keyColor": "blue"
         },
         {
             "type": "gpu",
             "format": "{2}",
-            "key": "   GPU",
+            "key": "   GPU",
             "keyColor": "blue"
         },
         {
             "type": "gpu",
             "format": "{3}",
-            "key": "   GPU Driver",
+            "key": "   GPU Driver",
             "keyColor": "magenta"
         },
         {
             "type": "memory",
-            "key": "  ﬙ Memory",
+            "key": "   Memory",
             "keyColor": "magenta"
         },
         {
