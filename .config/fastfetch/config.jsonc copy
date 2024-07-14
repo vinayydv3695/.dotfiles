@@ -10,7 +10,7 @@
     "modules": [
         {
             "type": "custom",
-            "format": "\u001b[36m    氷結×空 " // Changed to game controller icon
+            "format": "\u001b[36m    Loli over Mommy "
         },
         {
             "type": "custom",
@@ -19,32 +19,32 @@
         {
             "type": "os",
             "key": "   OS",
-            "keyColor": "\u001b[38;5;208m" // Orange
+            "keyColor": "red"
         },
         {
             "type": "kernel",
-            "key": "   Kernel",
-            "keyColor": "\u001b[38;5;208m" // Orange
+            "key": "   Kernel",
+            "keyColor": "red"
         },
         {
             "type": "packages",
-            "key": "   Packages",
-            "keyColor": "\u001b[38;5;46m" // Bright green
+            "key": "   Packages",
+            "keyColor": "green"
         },
         {
             "type": "display",
             "key": "   Display",
-            "keyColor": "\u001b[38;5;46m" // Bright green
+            "keyColor": "green"
         },
         {
             "type": "wm",
-            "key": "   WM",
-            "keyColor": "\u001b[38;5;226m" // Yellow
+            "key": "   WM",
+            "keyColor": "yellow"
         },
         {
             "type": "terminal",
-            "key": "   Terminal",
-            "keyColor": "\u001b[38;5;226m" // Yellow
+            "key": "   Terminal",
+            "keyColor": "yellow"
         },
         {
             "type": "custom",
@@ -53,8 +53,7 @@
         "break",
         {
             "type": "title",
-            "key": "   User", // Heart icon
-            "keyColor": "\u001b[38;5;51m" // Cyan
+            "key": "   User"
         },
         {
             "type": "custom",
@@ -63,25 +62,25 @@
         {
             "type": "cpu",
             "format": "{1}",
-            "key": "   CPU",
-            "keyColor": "\u001b[38;5;27m" // Blue
+            "key": "   CPU",
+            "keyColor": "blue"
         },
         {
             "type": "gpu",
             "format": "{2}",
-            "key": "   GPU",
-            "keyColor": "\u001b[38;5;27m" // Blue
+            "key": "   GPU",
+            "keyColor": "blue"
         },
         {
             "type": "gpu",
             "format": "{3}",
-            "key": "   GPU Driver",
-            "keyColor": "\u001b[38;5;201m" // Magenta
+            "key": "   GPU Driver",
+            "keyColor": "magenta"
         },
         {
             "type": "memory",
             "key": "   Memory",
-            "keyColor": "\u001b[38;5;201m" // Magenta
+            "keyColor": "magenta"
         },
         {
             "type": "custom",
@@ -91,9 +90,8 @@
         {
             "type": "colors",
             "paddingLeft": 2,
-            "symbol": "Star" // Star symbol
+            "symbol": "Square"
         },
         "break"
     ]
 }
-
