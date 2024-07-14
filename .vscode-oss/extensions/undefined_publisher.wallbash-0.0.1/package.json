@@ -1,0 +1,34 @@
+{
+	"name": "wallbash",
+	"displayName": "wallbash",
+	"description": "wallbash color integration",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.88.0"
+	},
+	"icon": "hyde.png",
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.reloadWindow",
+				"title": "Reload Window"
+			}
+		],
+		"themes": [
+			{
+				"label": "wallbash",
+				"uiTheme": "vs-dark",
+				"path": "./themes/wallbash-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"isApplicationScoped": false,
+		"installedTimestamp": 1720959192908,
+		"pinned": false,
+		"source": "vsix"
+	}
+}
