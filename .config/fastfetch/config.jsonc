@@ -9,8 +9,17 @@
     },
     "modules": [
         {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "Star" // Star symbol at the start
+        },
+        {
             "type": "custom",
-            "format": "\u001b[36m    氷結×空 " // Changed to game controller icon
+            "format": ""
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[36m    氷結×空" // Changed to game controller icon
         },
         {
             "type": "custom",
@@ -91,7 +100,7 @@
         {
             "type": "colors",
             "paddingLeft": 2,
-            "symbol": "Star" // Star symbol
+            "symbol": "Star" // Star symbol at the end
         },
         "break"
     ]
