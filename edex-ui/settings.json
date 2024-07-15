@@ -1,9 +1,10 @@
+ 
 {
   "shell": "zsh",
-  "shellArgs": "",
+  "shellArgs": [],
   "cwd": "/home/zura/.config/eDEX-UI",
   "keyboard": "en-US",
-  "theme": "tron-colorfilter",
+  "theme": "lightblue",
   "termFontSize": 20,
   "audio": true,
   "audioVolume": 1,
@@ -14,7 +15,7 @@
   "nointro": true,
   "nocursor": true,
   "forceFullscreen": false,
-  "allowWindowed": false,
+  "allowWindowed": true,
   "excludeThreadsFromToplist": true,
   "hideDotfiles": false,
   "fsListView": true,
