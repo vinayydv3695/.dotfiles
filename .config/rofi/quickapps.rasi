@@ -1,0 +1,94 @@
+// Config //
+configuration {
+    modi:                        "drun";
+    show-icons:                  true;
+}
+
+@theme "~/.config/rofi/theme.rasi"
+
+// Main //
+window {
+    transparency:                "real";
+    fullscreen:                  false;
+    enabled:                     true;
+    cursor:                      "default";
+    spacing:                     0em;
+    padding:                     0em;
+    border:                      2px solid @border-color;
+    border-radius:               0px;  // Sharp edges
+    border-color:                @main-br;
+    background-color:            @main-bg;
+    shadow:                      true;
+    shadow-color:                rgba(0, 0, 0, 0.5);
+}
+mainbox {
+    enabled:                     true;
+    spacing:                     0em;
+    padding:                     0em;
+    orientation:                 horizontal;
+    children:                    [ "listbox" ];
+    background-color:            transparent;
+}
+
+// Lists //
+listbox {
+    padding:                     0em;
+    spacing:                     0em;
+    orientation:                 horizontal;
+    children:                    [ "listview" ];
+    background-color:            transparent;
+}
+listview {
+    padding:                     2px;
+    spacing:                     0em;
+    enabled:                     true;
+    columns:                     1;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    flow:                        horizontal; 
+    reverse:                     false;
+    fixed-height:                false;
+    fixed-columns:               false;
+    cursor:                      "default";
+    background-color:            transparent;
+}
+
+// Elements //
+element {
+    orientation:                 vertical;
+    enabled:                     true;
+    spacing:                     0em;
+    padding:                     0.5em;  // Added padding for better spacing
+    cursor:                      pointer;
+    background-color:            transparent;
+    border:                      1px solid @border-color;  // Added border for each element
+    border-radius:               0px;  // Sharp edges
+}
+element selected.normal {
+    background-color:            @main-fg;
+}
+element-icon {
+    cursor:                      inherit;
+    background-color:            transparent;
+    padding:                     0.5em;  // Added padding for icons
+}
+element-text {
+    enabled:                     false;
+}
+
+// New Feature: Footer //
+footer {
+    enabled:                     true;
+    padding:                     1em;
+    background-color:            @main-bg;
+    text-color:                  @main-fg;
+    text:                        "Press Enter to select, Esc to exit";
+    font:                        "JetBrainsMono Nerd Font 8";
+    horizontal-align:            0.5;
+    vertical-align:              0.5;
+}
+mainbox {
+    children:                    [ "listbox" , "footer" ];
+}
+
