@@ -1,0 +1,93 @@
+* {
+    main-bg:            #1E1E2E;     // Darker background
+    main-fg:            #FFD700;     // Bright yellow foreground
+    main-br:            #FF69B4;     // Hot pink border
+    main-ex:            #00FFFF;     // Cyan accent
+    select-bg:          #FF4500;     // Orange-red selection background
+    select-fg:          #FFFFFF;     // White selection foreground
+    separatorcolor:     #FF6347;     // Tomato separator color
+    border-color:       #FF69B4;     // Hot pink border color
+}
+
+// Config //
+configuration {
+    modi:                        "drun";
+    show-icons:                  true;
+    drun-display-format:         "{name}";
+    font:                        "JetBrainsMono Nerd Font 9";
+}
+
+@theme "~/.config/rofi/theme.rasi"
+
+// Main //
+window {
+    enabled:                     false;
+    fullscreen:                  true;
+    width:                       40em;
+    height:                      20em;
+    transparency:                "real";
+    cursor:                      "default";
+    spacing:                     0em;
+    padding:                     0em;
+    border:                      2px solid @border-color;
+    border-radius:               0px;  // Sharp edges
+    border-color:                @main-br;
+    background-color:            @main-bg;
+    background-image:            url("~/.config/rofi/assets/wallbash_mode.png", width);
+    shadow:                      true;
+    shadow-color:                rgba(0, 0, 0, 0.5);
+}
+mainbox {
+    enabled:                     true;
+    orientation:                 vertical;
+    children:                    [ "dummy" , "listview" ];
+    background-color:            transparent;
+}
+
+// Lists //
+listview {
+    enabled:                     true;
+    spacing:                     1em;
+    padding:                     1em 2em 2.5em 2em;
+    columns:                     4;
+    lines:                       1;
+    dynamic:                     false;
+    fixed-height:                false;
+    fixed-columns:               true;
+    reverse:                     true;
+    cursor:                      "default";
+    background-color:            transparent;
+    text-color:                  @main-fg;
+}
+dummy {
+    padding:                     4em;
+    expand:                      false;
+    background-color:            transparent;
+}
+
+// Elements //
+element {
+    enabled:                     true;
+    spacing:                     0em;
+    padding:                     1.5em;
+    cursor:                      pointer;
+    background-color:            @main-bg;
+    text-color:                  @main-fg;
+    border:                      1px solid @border-color;  // Added border for each element
+    border-radius:               0px;  // Sharp edges
+}
+element selected.normal {
+    background-color:            @select-bg;
+    text-color:                  @select-fg;
+}
+element-icon {
+    enabled:                     false;
+}
+element-text {
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+}
+
