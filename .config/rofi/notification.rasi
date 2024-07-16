@@ -1,0 +1,113 @@
+// Config //
+configuration {
+    modi:                        "drun";
+    show-icons:                  true;
+    drun-display-format:         "{name}";
+    font:                        "JetBrainsMono Nerd Font 9";
+}
+
+@theme "~/.config/rofi/theme.rasi"
+
+// Main //
+window {
+    enabled:                     true;
+    fullscreen:                  false;
+    width:                       40em;
+    height:                      32.8em;
+    transparency:                "real";
+    cursor:                      "default";
+    spacing:                     0em;
+    padding:                     0em;
+    border:                      2px solid @border-color;
+    border-radius:               0px;  // Sharp edges
+    border-color:                @main-br;
+    background-color:            transparent;
+    background-image:            url("~/.config/rofi/assets/notification.png", width);
+    shadow:                      true;
+    shadow-color:                rgba(0, 0, 0, 0.5);
+}
+mainbox {
+    enabled:                     true;
+    orientation:                 vertical;
+    children:                    [ "dummy" , "frame" ];
+    background-color:            transparent;
+}
+dummy {
+    padding:                     6em;
+    expand:                      false;
+    background-color:            transparent;
+}
+frame {
+    enabled:                     true;
+    orientation:                 vertical;
+    children:                    [ "dummy2" , "listview" , "dummy2" ];
+    background-color:            transparent;
+}
+
+// Lists //
+listview {
+    enabled:                     true;
+    spacing:                     0em;
+    padding:                     0em;
+    columns:                     1;
+    lines:                       5;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    expand:                      false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    cursor:                      "default";
+    background-color:            transparent;
+}
+dummy2 {
+    spacing:                     0em;
+    padding:                     0em;
+    background-color:            transparent;
+}
+
+// Elements //
+element {
+    enabled:                     true;
+    spacing:                     1em;
+    padding:                     1em;
+    cursor:                      pointer;
+    background-color:            transparent;
+    text-color:                  @main-fg;
+    border-bottom:               1px solid @border-color;
+}
+element selected.normal {
+    background-color:            @select-bg;
+    text-color:                  @select-fg;
+}
+element-icon {
+    enabled:                     true; // Enable icons
+    size:                        1.5em; // Set icon size
+    padding:                     0.5em; // Adjust icon padding
+}
+element-text {
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+    font:                        "JetBrainsMono Nerd Font 9";  // Modern font
+}
+
+// New Feature: Footer //
+footer {
+    enabled:                     true;
+    padding:                     1em;
+    background-color:            @main-bg;
+    text-color:                  @main-fg;
+    text:                        "Press Enter to select, Esc to exit";
+    font:                        "JetBrainsMono Nerd Font 8";
+    horizontal-align:            0.5;
+    vertical-align:              0.5;
+}
+mainbox {
+    children:                    [ "dummy" , "frame" , "footer" ];
+}
+
