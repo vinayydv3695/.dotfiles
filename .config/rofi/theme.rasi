@@ -1,0 +1,11 @@
+* {
+    main-bg:            #11111be6;   /* Keeping the same background */
+    main-fg:            #89c5e8ff;   /* Vibrant light blue for foreground */
+    main-br:            #ff79c6ff;   /* Vibrant magenta for borders */
+    main-ex:            #ffb86cff;   /* Vibrant peach for extra elements */
+    select-bg:          #8be9fdff;   /* Vibrant cyan for selected background */
+    select-fg:          #282a36ff;   /* Darker background for selected foreground */
+    separatorcolor:     transparent; /* Keeping the separator color transparent */
+    border-color:       transparent; /* Keeping the border color transparent */
+}
+
