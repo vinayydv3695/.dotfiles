@@ -1,0 +1,113 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "$(find \"${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch/pngs/\" -name \"*.png\" | sort -R | head -1)",
+        "height": 18
+    },
+    "display": {
+        "separator": " : "
+    },
+    "modules": [
+        {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "Star" // Star symbol at the start
+        },
+        {
+            "type": "custom",
+            "format": ""
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[36m    氷結×空" // Changed to game controller icon
+        },
+        {
+            "type": "custom",
+            "format": ""
+        },
+        {
+            "type": "os",
+            "key": "   OS",
+            "keyColor": "\u001b[38;5;208m" // Orange
+        },
+        {
+            "type": "kernel",
+            "key": "   Kernel",
+            "keyColor": "\u001b[38;5;208m" // Orange
+        },
+        {
+            "type": "packages",
+            "key": "   Packages",
+            "keyColor": "\u001b[38;5;46m" // Bright green
+        },
+        {
+            "type": "display",
+            "key": "   Display",
+            "keyColor": "\u001b[38;5;46m" // Bright green
+        },
+        {
+            "type": "wm",
+            "key": "   WM",
+            "keyColor": "\u001b[38;5;226m" // Yellow
+        },
+        {
+            "type": "terminal",
+            "key": "   Terminal",
+            "keyColor": "\u001b[38;5;226m" // Yellow
+        },
+        {
+            "type": "custom",
+            "format": ""
+        },
+        "break",
+        {
+            "type": "title",
+            "key": "   User", // Heart icon
+            "keyColor": "\u001b[38;5;51m" // Cyan
+        },
+        {
+            "type": "custom",
+            "format": ""
+        },
+        {
+            "type": "cpu",
+            "format": "{1}",
+            "key": "   CPU",
+            "keyColor": "\u001b[38;5;27m" // Blue
+        },
+        {
+            "type": "gpu",
+            "format": "{2}",
+            "key": "   GPU",
+            "keyColor": "\u001b[38;5;27m" // Blue
+        },
+        {
+            "type": "gpu",
+            "format": "{3}",
+            "key": "   GPU Driver",
+            "keyColor": "\u001b[38;5;201m" // Magenta
+        },
+        {
+            "type": "memory",
+            "key": "   Memory",
+            "keyColor": "\u001b[38;5;201m" // Magenta
+        },
+        {
+            "type": "custom",
+            "format": ""
+        },
+	 {
+            "type": "media",
+            "key": "󰝚 ",
+            "keyColor": "34",
+        },
+        "break",
+        {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "Star" // Star symbol at the end
+        },
+        "break"
+    ]
+}
+
