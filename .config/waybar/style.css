@@ -1,14 +1,14 @@
 * {
-    border: none;
-    border-radius: 0px;
-    font-family: "JetBrainsMono Nerd Font";
-    font-weight: bold;
-    font-size: 13px;
-    min-height: 10px;
+  border: none;
+  border-radius: 0px;
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: bold;
+  font-size: 15px;
+  min-height: 13px;
 }
 
 window#waybar {
-    background-color: rgba(0, 0, 0, .0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #battery,
@@ -22,92 +22,92 @@ window#waybar {
 #network,
 #custom-right,
 #custom-left {
-   color: @main-color;
-   background: #242424;
-   margin: 4px 0px 4px 0px;
-   opacity: 1;
-   border: 0px solid #181825;
+  color: #add8e6; /* Light Blue */
+  background: #000000; /* Black */
+  margin: 4px 0px 4px 0px;
+  opacity: 1;
+  border: 0px solid #181825;
 }
 
 tooltip {
-    background: @tool-bg;
-    color: @tool-color;
-    border-radius: 22px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #11111b;
+  background: #000000; /* Black */
+  color: #add8e6; /* Light Blue */
+  border-radius: 22px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #11111b;
 }
 
 #workspaces button {
-    box-shadow: none;
-    text-shadow: none;
-    padding: 0px;
-    border-radius: 9px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    padding-left: 3px;
-    padding-right: 3px;
-    color: #ffffff;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+  box-shadow: none;
+  text-shadow: none;
+  padding: 0px;
+  border-radius: 9px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: #add8e6; /* Light Blue */
+  animation: gradient_f 20s ease-in infinite;
+  transition: all 0.5s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
 #workspaces button.active {
-    background: #DA025D;
-    color: #DDBF98;
-    margin-left: 3px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-right: 3px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+  background: #000000; /* Black */
+  color: #add8e6; /* Light Blue */
+  margin-left: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: 3px;
+  animation: gradient_f 20s ease-in infinite;
+  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
 #workspaces button:hover {
-    background: #b16286;
-    border: none;
+  background: #000000; /* Black */
+  border: none;
 }
 
 #workspaces {
-    padding: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
+  padding: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #custom-rofi {
-    color: #38ef7d; 
-    padding-left: 0px;
-    padding-right: 10px;
+  color: #add8e6; /* Light Blue */
+  padding-left: 0px;
+  padding-right: 10px;
 }
 
 #temperature {
-    color: #eebd35;
-    padding-left: 0px;
-    padding-right: 19px;
+  color: #add8e6; /* Light Blue */
+  padding-left: 0px;
+  padding-right: 19px;
 }
 
 #temperature.critical {
-    color: #ff0000;
-    padding-left: 0px;
-    padding-right: 19px;
+  color: #add8e6; /* Light Blue */
+  padding-left: 0px;
+  padding-right: 19px;
 }
 
 #backlight {
-    color: #FF8B49;
-    padding-left: 0px;
-    padding-right: 19px;
+  color: #add8e6; /* Light Blue */
+  padding-left: 0px;
+  padding-right: 19px;
 }
 
 #pulseaudio {
-    color: #EA879D;
-    padding-left: 0px;
-    padding-right: 19px;
+  color: #add8e6; /* Light Blue */
+  padding-left: 0px;
+  padding-right: 19px;
 }
 
 #battery {
-    color: #458588;
-    padding-left: 0px;
-    padding-right: 0px;
+  color: #add8e6; /* Light Blue */
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #tray {
@@ -116,24 +116,24 @@ tooltip {
 }
 
 #network {
-   padding-left: 0px;
-   padding-right: 19px;
+  padding-left: 0px;
+  padding-right: 19px;
 }
 
 #clock {
-   color: #73B580;
-   padding-left: 0px;
-   padding-right: 0px;
+  color: #add8e6; /* Light Blue */
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #custom-right {
-    margin-right: 9px;
-    padding-right: 3px;
-    border-radius: 0px 22px 22px 0px;
+  margin-right: 9px;
+  padding-right: 3px;
+  border-radius: 0px 22px 22px 0px;
 }
 
 #custom-left {
-    margin-left: 9px;
-    padding-left: 3px;
-    border-radius: 22px 0px 0px 22px;
+  margin-left: 9px;
+  padding-left: 3px;
+  border-radius: 22px 0px 0px 22px;
 }

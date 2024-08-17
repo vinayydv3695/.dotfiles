@@ -58,7 +58,8 @@
         "states": {
             "good": 95,
             "warning": 30,
-            "critical": 20
+            "critical": 20,
+                "Fuck off Switch off": 10
         },
         "format": "{icon} {capacity}%",
         "format-charging": " {capacity}%",
@@ -129,3 +130,234 @@
     },
 
 }
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","","custom/padd"],
+	"modules-center": ["custom/padd","","custom/padd"],
+	"modules-right": ["custom/padd","","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
