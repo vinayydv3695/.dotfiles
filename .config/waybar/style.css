@@ -22,20 +22,20 @@ window#waybar {
 #network,
 #custom-right,
 #custom-left {
-  color: #add8e6; /* Light Blue */
-  background: #000000; /* Black */
+  color: #e0e0e0;
+  background: rgba(0, 0, 0, 0.6);
   margin: 4px 0px 4px 0px;
   opacity: 1;
   border: 0px solid #181825;
 }
 
 tooltip {
-  background: #000000; /* Black */
-  color: #add8e6; /* Light Blue */
+  background: #1a1a1a;
+  color: #e0e0e0;
   border-radius: 22px;
   border-width: 2px;
   border-style: solid;
-  border-color: #11111b;
+  border-color: #3a3a3a;
 }
 
 #workspaces button {
@@ -47,14 +47,14 @@ tooltip {
   margin-bottom: 3px;
   padding-left: 3px;
   padding-right: 3px;
-  color: #add8e6; /* Light Blue */
+  color: #b0b0b0;
   animation: gradient_f 20s ease-in infinite;
   transition: all 0.5s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
 #workspaces button.active {
-  background: #000000; /* Black */
-  color: #add8e6; /* Light Blue */
+  background: #4a4a4a;
+  color: #ffffff;
   margin-left: 3px;
   padding-left: 12px;
   padding-right: 12px;
@@ -64,7 +64,8 @@ tooltip {
 }
 
 #workspaces button:hover {
-  background: #000000; /* Black */
+  background: #5a5a5a;
+  color: #ffffff;
   border: none;
 }
 
@@ -75,37 +76,37 @@ tooltip {
 }
 
 #custom-rofi {
-  color: #add8e6; /* Light Blue */
+  color: #ffffff;
   padding-left: 0px;
   padding-right: 10px;
 }
 
 #temperature {
-  color: #add8e6; /* Light Blue */
+  color: #ff6b6b;
   padding-left: 0px;
   padding-right: 19px;
 }
 
 #temperature.critical {
-  color: #add8e6; /* Light Blue */
+  color: #ff4500;
   padding-left: 0px;
   padding-right: 19px;
 }
 
 #backlight {
-  color: #add8e6; /* Light Blue */
+  color: #ffd700;
   padding-left: 0px;
   padding-right: 19px;
 }
 
 #pulseaudio {
-  color: #add8e6; /* Light Blue */
+  color: #98fb98;
   padding-left: 0px;
   padding-right: 19px;
 }
 
 #battery {
-  color: #add8e6; /* Light Blue */
+  color: #7cfc00;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -116,12 +117,13 @@ tooltip {
 }
 
 #network {
+  color: #dda0dd;
   padding-left: 0px;
   padding-right: 19px;
 }
 
 #clock {
-  color: #add8e6; /* Light Blue */
+  color: #f0e68c;
   padding-left: 0px;
   padding-right: 0px;
 }
