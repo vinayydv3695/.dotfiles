@@ -1,11 +1,11 @@
 * {
-    main-bg:            #11111be6;   /* Keeping the same background */
-    main-fg:            #89c5e8ff;   /* Vibrant light blue for foreground */
-    main-br:            #ff79c6ff;   /* Vibrant magenta for borders */
-    main-ex:            #ffb86cff;   /* Vibrant peach for extra elements */
-    select-bg:          #8be9fdff;   /* Vibrant cyan for selected background */
-    select-fg:          #282a36ff;   /* Darker background for selected foreground */
-    separatorcolor:     transparent; /* Keeping the separator color transparent */
-    border-color:       transparent; /* Keeping the border color transparent */
+    main-bg:            #1e1e1e80;  /* Transparent dark background color */
+    main-fg:            #ffffff;    /* White foreground color */
+    main-br:            #bbbbbb;    /* Light gray for borders or highlights */
+    main-ex:            #888888;    /* Medium gray for accents or highlights */
+    select-bg:          #44444480;  /* Transparent darker gray for selected backgrounds */
+    select-fg:          #ffffff;    /* White for selected foreground text */
+    separatorcolor:     transparent; /* Transparent separator */
+    border-color:       transparent; /* Transparent border color */
 }
 
