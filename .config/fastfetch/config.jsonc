@@ -18,7 +18,7 @@
     },
     {
       "type": "custom",
-      "format": "    No Cost too great "
+      "format": "    Happiness describes moments, and it's never permanent "
     },
     {
       "type": "custom",
@@ -59,11 +59,14 @@
       "key": "  󰝚  Music",
       "keyColor": "34"
     },
-    {
-      "type": "command",
-      "key": "  󱦟 Age ",
-      "keyColor": "38;5;124"  // Light Red
-    },
+
+     {
+            "type": "command",
+            "key": "  󱦟 OS Age ",
+            "keyColor": "31",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+
      {
             "type": "uptime",
             "key": "  ",
@@ -74,10 +77,11 @@
       "format": "  󰊤  GitHub : Vinayydv3695",
       "keyColor": "\u001b[38;5;75m"
     },
-    {
-      "type": "custom",
-      "format": ""
-    },
+{
+  "type": "battery",
+  "key": "   Battery",
+  "keyColor": "38;5;228"  // Light Yellow
+},
     "break",
     {
       "type": "title",
@@ -123,4 +127,3 @@
     "break"
   ]
 }
-
